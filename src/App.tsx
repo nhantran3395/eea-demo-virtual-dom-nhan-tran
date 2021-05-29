@@ -1,6 +1,6 @@
 import './App.css';
-import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import Layout from './components/Layout';
 import AboutPage from './pages/AboutPage';
 import DomPage from './pages/DomPage';
 import LearnedPage from './pages/LearnedPage';
@@ -13,8 +13,8 @@ import WrapUpPage from './pages/WrapUpPage';
 export default function App() {
   return (
     <Router>
-      <div>
-        <nav>
+      <Layout>
+        <nav className="navigation">
           <ul>
             <li>
               <Link to="/about">About</Link>
@@ -71,7 +71,7 @@ export default function App() {
             <WrapUpPage />
           </Route>
         </Switch>
-      </div>
+      </Layout>
     </Router>
   );
 }
