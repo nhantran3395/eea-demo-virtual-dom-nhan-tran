@@ -25,3 +25,7 @@ a {
 ul > li {
   list-style: none;
 }
+
+h1 {
+  margin: 15px 0;
+}
