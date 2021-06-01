@@ -7,13 +7,13 @@ function DomPage() {
   return (
     <div>
       <h1>DOM</h1>
-      <nav>
+      <nav className="page-inner-navigation">
         <ul>
           <li>
-            <Link to="/dom">concept</Link>
+            <Link to="/dom">What is the DOM?</Link>
           </li>
           <li>
-            <Link to="/dom/example">example</Link>
+            <Link to="/dom/example">Example</Link>
           </li>
         </ul>
       </nav>
@@ -23,6 +23,11 @@ function DomPage() {
           <div className="dom-image-container">
             <img src={domConcept} alt="dom concept" className="dom-image" />
           </div>
+          <ul>
+            <li>Document object model</li>
+            <li>A representation of a webpage</li>
+            <li>Each node in the tree represent an HTML element</li>
+          </ul>
         </Route>
         <Route path="/dom/example" exact>
           <div className="dom-image-container">
