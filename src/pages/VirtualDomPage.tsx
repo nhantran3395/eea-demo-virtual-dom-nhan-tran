@@ -24,6 +24,9 @@ function VirtualDomPage() {
         <Route path="/virtualdom" exact>
           <div className="dom-image-container">
             <img src={vdom} alt="virtual dom concept" className="vdom-image" />
+            <small>
+              <i>image are copied from an article on teropa.info</i>
+            </small>
           </div>
         </Route>
         <Route path="/virtualdom/compare" exact>
@@ -33,6 +36,9 @@ function VirtualDomPage() {
               alt="virtual dom compare"
               className="vdom-image"
             />
+            <small>
+              <i>image are copied from an article on teropa.info</i>
+            </small>
           </div>
         </Route>
       </Switch>
