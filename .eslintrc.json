@@ -20,6 +20,7 @@
     "import/no-unresolved": "off",
     "import/extensions": "off",
     "no-use-before-define": "off",
-    "react/destructuring-assignment": "off"
+    "react/destructuring-assignment": "off",
+    "no-unused-vars": "warn"
   }
 }
