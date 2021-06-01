@@ -17,7 +17,7 @@ export default function App() {
         <nav className="navigation">
           <ul>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/">About</Link>
             </li>
             <li>
               <Link to="/learned">Learned</Link>
@@ -46,7 +46,7 @@ export default function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/about">
+          <Route path="/" exact>
             <AboutPage />
           </Route>
           <Route path="/learned">
