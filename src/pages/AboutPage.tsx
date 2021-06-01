@@ -1,5 +1,5 @@
 import './AboutPage.css';
-import myPicture from '../my_picture.jpg';
+import myPicture from '../imgs/my_picture.jpg';
 
 function AboutPage() {
   return (
