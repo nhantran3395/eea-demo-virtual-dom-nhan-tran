@@ -53,7 +53,9 @@ function LearnedPage() {
             alt=""
             style={{ width: '280px', marginBottom: '45px' }}
           />
-          Basics of React
+
+          <p>Basics of React</p>
+          <p>(Components, Router, etc.)</p>
         </li>
       </ul>
     </div>
