@@ -20,14 +20,20 @@ function DomPage() {
 
       <Switch>
         <Route path="/dom" exact>
-          <div className="dom-image-container">
-            <img src={domConcept} alt="dom concept" className="dom-image" />
-          </div>
           <ul>
             <li>Document object model</li>
             <li>A representation of a webpage</li>
-            <li>Each node in the tree represent an HTML element</li>
           </ul>
+          <br />
+          <div className="dom-image-container">
+            <img src={domConcept} alt="dom concept" className="dom-image" />
+          </div>
+          <br />
+          <ol>
+            <li>Browser receive the HTML file</li>
+            <li>Parse and generate a tree-like data structure (DOM)</li>
+            <li>Base on the tree data structure to paint the contents</li>
+          </ol>
         </Route>
         <Route path="/dom/example" exact>
           <div className="dom-image-container">

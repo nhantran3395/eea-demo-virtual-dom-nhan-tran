@@ -19,3 +19,22 @@
   margin-right: 30px;
   margin-bottom: 30px;
 }
+
+ol {
+  list-style: none;
+  counter-reset: li;
+}
+
+ol > li::before {
+  content: counter(li);
+  color: black;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  font-weight: bold;
+  background-color: #f6c90c;
+}
+
+ol > li {
+  counter-increment: li;
+}
