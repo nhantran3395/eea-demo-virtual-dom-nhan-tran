@@ -32,9 +32,9 @@ function VirtualDomPage() {
           <br />
 
           <ol>
-            <li>Serve as a layer between the code and the DOM</li>
+            <li>Serve as a new middle layer</li>
             <li>Is a JS plain object copy of the DOM</li>
-            <li>Manupulating on Virtual DOM first</li>
+            <li>Changes will not be perfomed directly onto the DOM anymore</li>
           </ol>
         </Route>
         <Route path="/virtualdom/compare" exact>

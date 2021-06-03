@@ -22,7 +22,9 @@ function ProblemPage() {
 
       <Switch>
         <Route path="/problem/example" exact>
-          <div className="dom-image-container">
+          <div
+            className="dom-image-container"
+            style={{ width: '75%', height: '75%' }}>
             <img src={domProblems} alt="dom problems" className="dom-image" />
           </div>
         </Route>
