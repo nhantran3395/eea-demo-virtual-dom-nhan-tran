@@ -14,7 +14,7 @@ function VirtualDomPage() {
           </li>
           <li>
             <Link to="/virtualdom/compare">
-              How to determine what has been changed
+              How Virtual DOM manage changes?
             </Link>
           </li>
         </ul>
@@ -25,9 +25,17 @@ function VirtualDomPage() {
           <div className="dom-image-container">
             <img src={vdom} alt="virtual dom concept" className="vdom-image" />
             <small>
-              <i>image are copied from an article on teropa.info</i>
+              <i>image is copied from an article on teropa.info</i>
             </small>
           </div>
+
+          <br />
+
+          <ol>
+            <li>Serve as a layer between the code and the DOM</li>
+            <li>Is a JS plain object copy of the DOM</li>
+            <li>Manupulating on Virtual DOM first</li>
+          </ol>
         </Route>
         <Route path="/virtualdom/compare" exact>
           <div className="dom-image-container">
@@ -37,7 +45,7 @@ function VirtualDomPage() {
               className="vdom-image"
             />
             <small>
-              <i>image are copied from an article on teropa.info</i>
+              <i>image is copied from an article on teropa.info</i>
             </small>
           </div>
         </Route>
