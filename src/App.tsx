@@ -5,10 +5,10 @@ import AboutPage from './pages/AboutPage';
 import DomPage from './pages/DomPage';
 import LearnedPage from './pages/LearnedPage';
 import ProblemPage from './pages/ProblemPage';
-import ProblemSolvedPage from './pages/ProblemSolvedPage';
+import BenefitPage from './pages/BenefitPage';
 import TopicPage from './pages/TopicPage';
 import VirtualDomPage from './pages/VirtualDomPage';
-import WrapUpPage from './pages/WrapUpPage';
+import ThankYouPage from './pages/ThankYouPage';
 
 export default function App() {
   return (
@@ -35,10 +35,10 @@ export default function App() {
               <Link to="/virtualdom">Virtual DOM</Link>
             </li>
             <li>
-              <Link to="/problemsolved">Problems Solved</Link>
+              <Link to="/benefit">Benefits</Link>
             </li>
             <li>
-              <Link to="/wrapup">Wrap Up</Link>
+              <Link to="/thankyou">Thank You</Link>
             </li>
           </ul>
         </nav>
@@ -64,11 +64,11 @@ export default function App() {
           <Route path="/virtualdom">
             <VirtualDomPage />
           </Route>
-          <Route path="/problemsolved">
-            <ProblemSolvedPage />
+          <Route path="/benefit">
+            <BenefitPage />
           </Route>
-          <Route path="/wrapup">
-            <WrapUpPage />
+          <Route path="/thankyou">
+            <ThankYouPage />
           </Route>
         </Switch>
       </Layout>
