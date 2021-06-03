@@ -12,7 +12,7 @@ function ProblemPage() {
       <nav className="page-inner-navigation">
         <ul>
           <li>
-            <Link to="/problem">Topic</Link>
+            <Link to="/problem">Problem</Link>
           </li>
           <li>
             <Link to="/problem/example">Example</Link>
